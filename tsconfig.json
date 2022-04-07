@@ -6,11 +6,12 @@
     "module": "CommonJS",
     "target": "ES6",
     "sourceMap": true,
+    "declaration": true,
     "noImplicitReturns": true,
     "strict": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "lib": ["ESNext"]
   },
-  "include": ["src/*.ts"]
+  "include": ["src/**.ts"]
 }
