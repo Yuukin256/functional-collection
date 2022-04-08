@@ -1,6 +1,6 @@
 {
   "name": "functional-collection",
-  "version": "0.1.0",
+  "version": "1.0.0-beta.1",
   "author": "Yuukin256",
   "repository": "https://github.com/Yuukin256/functional-collection",
   "main": "dist/index.js",
@@ -41,5 +41,8 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "packageManager": "yarn@1.22.18"
+  "packageManager": "yarn@1.22.18",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
